@@ -1,24 +1,25 @@
 package tn.esprit.gestionzoo.entities;
 
-public class Animal {
-    protected String name;
-    protected int age;
 
-    // Constructeur
+public abstract class Animal {
+    private String name;
+    private int age;
+
     public Animal(String name, int age) {
         this.name = name;
-        this.age = Math.max(age, 0); // Vérification de l'âge
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
     }
 
     @Override
     public String toString() {
-        return "Animal{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
-
-    public String getName() {
-        return "";
+        return "Animal{name='" + name + "', age=" + age + "}";
     }
 }
