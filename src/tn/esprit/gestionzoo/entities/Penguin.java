@@ -3,9 +3,8 @@ package tn.esprit.gestionzoo.entities;
 public class Penguin extends Aquatic {
     protected float swimmingDepth;
 
-    // Constructeur
     public Penguin(String name, int age, String habitat, float swimmingDepth) {
-        super(name, age, habitat); // Appel du constructeur de Aquatic
+        super(name, age, habitat); 
         this.swimmingDepth = swimmingDepth;
     }
 
