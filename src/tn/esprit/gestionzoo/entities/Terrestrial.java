@@ -3,9 +3,9 @@ package tn.esprit.gestionzoo.entities;
 public class Terrestrial extends Animal {
     protected int nbrLegs;
 
-    // Constructeur
+
     public Terrestrial(String name, int age, int nbrLegs) {
-        super(name, age); // Appel du constructeur de Animal
+        super(name, age); 
         this.nbrLegs = nbrLegs;
     }
 
