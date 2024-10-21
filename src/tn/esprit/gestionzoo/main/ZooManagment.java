@@ -10,9 +10,9 @@ class ZooManagement {
         Terrestrial lion = new Terrestrial("Simba", 4, 4);
 
       
-        genericAquaticAnimal.swim(); // Affiche le message générique
-        dolphin.swim(); // Affiche le message spécifique du dauphin
-        penguin.swim(); // Affiche le message spécifique du pingouin
+        genericAquaticAnimal.swim(); 
+        dolphin.swim();
+        penguin.swim(); 
 
        
         System.out.println(genericAquaticAnimal);
