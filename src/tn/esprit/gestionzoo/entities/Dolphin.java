@@ -3,9 +3,9 @@ package tn.esprit.gestionzoo.entities;
 public class Dolphin extends Aquatic {
     protected float swimmingSpeed;
 
-    // Constructeur
+   
     public Dolphin(String name, int age, String habitat, float swimmingSpeed) {
-        super(name, age, habitat); // Appel du constructeur de Aquatic
+        super(name, age, habitat);
         this.swimmingSpeed = swimmingSpeed;
     }
 
